@@ -1,11 +1,11 @@
 <h1 align="center">
-    <img alt="Move.it" title="Move.it" src=".github/moveit.svg" />
+    <img alt="Move.it" title="Move.it" src="./public/moveit.svg" />
 </h1>
 
 <br>
 
 <p align="center">
-  <img alt="Moveit" src=".github/icon.svg" width="120px">
+  <img alt="Moveit" src="./public/icon-moveit.svg" width="120px">
 </p>
 
 ## 🚀 Tecnologias
