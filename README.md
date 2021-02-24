@@ -11,6 +11,8 @@ Clique no link abaixo para acessar a aplicação web.
 - https://moveit-next-chi.vercel.app/
 
 
+
+
 <h1 align="center">
     <img alt="Move.it" title="Move.it" src="./public/moveit.svg" />
 </h1>
@@ -20,12 +22,6 @@ Clique no link abaixo para acessar a aplicação web.
 <p align="center">
   <img alt="Moveit" src="./public/icon-moveit.svg" width="120px">
 </p>
-
-## 🔗 Link da aplicação no Vercel
-
-Clique no link abaixo para acessar a aplicação web.
-
-- https://moveit-next-chi.vercel.app/
 
 ## 🚀 Tecnologias
 
