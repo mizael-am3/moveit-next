@@ -8,6 +8,12 @@
   <img alt="Moveit" src="./public/icon-moveit.svg" width="120px">
 </p>
 
+## 🔗 Link da aplicação no Vercel
+
+Clique no link abaixo para acessar a aplicação web.
+
+- (https://moveit-next-chi.vercel.app/)
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -30,4 +36,4 @@ Você pode visualizar o layout do projeto através dos links abaixo:
 
 ---
 
-<p align="center">Estudante de Desenvolvimento Web | <strong>Mizael Silva</strong></p>
+<p align="center">Estudante de Desenvolvimento Web | Mizael Silva</p>
