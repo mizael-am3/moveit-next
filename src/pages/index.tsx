@@ -12,9 +12,9 @@ import { CountdownProvider } from '../contexts/CountdownContext'
 import { ChallengesProvider } from '../contexts/ChallengesContext'
 
 interface HomeProps {
-  level: number;
-  currentExperience: number;
-  challengesCompleted: number;
+  level: number
+  currentExperience: number
+  challengesCompleted: number
 }
 
 export default function Home(props: HomeProps) {
@@ -27,7 +27,7 @@ export default function Home(props: HomeProps) {
     >
       <div className={styles.container}>
         <Head>
-          <title>Início | move.it</title>
+          <title>move.it</title>
         </Head>
 
         <ExperienceBar />

@@ -5,29 +5,29 @@ import challenges from '../../challenges.json'
 import { LevelUpModal } from '../components/LevelUpModal'
 
 interface Challenge {
-  type: 'body' | 'eye';
-  description: string;
-  amount: number;
+  type: 'body' | 'eye'
+  description: string
+  amount: number
 }
 
 interface ChallengesContextData {
   level: number; 
   currentExperience: number 
-  challengesCompleted: number;
-  experienceToNextLevel:number;
-  activeChallenge: Challenge;
-  levelUp: () => void;
-  startNewChallenge: () => void;
-  resetChallenge: () => void;
-  completeChallenge: () => void;
-  closeLevelUpModal: () => void;
+  challengesCompleted: number
+  experienceToNextLevel:number
+  activeChallenge: Challenge
+  levelUp: () => void
+  startNewChallenge: () => void
+  resetChallenge: () => void
+  completeChallenge: () => void
+  closeLevelUpModal: () => void
 }
 
 interface ChallengesProviderProps {
   children: ReactNode
-  level: number;
-  currentExperience: number;
-  challengesCompleted: number;
+  level: number
+  currentExperience: number
+  challengesCompleted: number
 }
 
 export const ChallengesContext = createContext({} as ChallengesContextData)
@@ -68,7 +68,7 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
 
     setActiveChallenge(challenge)
 
-    new Audio('/notification.mp3').play();
+    new Audio('/notification.mp3').play()
 
     if(Notification.permission === 'granted') {
       new Notification('Novo desafio 🎉', { 
@@ -82,7 +82,7 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
   }
 
   function completeChallenge() {
-    if(!activeChallenge) return;
+    if(!activeChallenge) return
 
     const { amount } = activeChallenge;
 
@@ -93,8 +93,8 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
       levelUp()
     }
 
-    setCurrentExperience(finalExperience);
-    setActiveChallenge(null);
+    setCurrentExperience(finalExperience)
+    setActiveChallenge(null)
     setChallengesCompleted(challengesCompleted + 1)
   }
   
