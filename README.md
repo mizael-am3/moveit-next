@@ -44,6 +44,9 @@ Você pode visualizar o layout do projeto através dos links abaixo:
 
 - [Layout Web](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0)
 
+
+(https://github.com/mizael-am3/moveit-next/blob/main/public/moveit.gif)
+
 ---
 
 <p align="center">Estudante de Desenvolvimento Web | Mizael Silva</p>
